@@ -1,0 +1,20 @@
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* height: 600px; */
+    width: 250px;
+    background: linear-gradient(45deg, rgb(255, 0, 0), rgb(255, 191, 0));
+}
+
+.card-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.backdrop {
+    position: absolute;
+    
+}l
