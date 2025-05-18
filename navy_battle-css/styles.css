@@ -22,6 +22,7 @@ body {
     flex-wrap: wrap;
     border-radius: 12px;
     overflow: hidden;
+    position: relative; /* Needed to add this here */
 }
 
 .cell {
@@ -52,24 +53,52 @@ pre {
 
 
 /* Coloca o teu CSS a partir daqui */
-.ball-0 {}
+.ball-0 {
+    left: 120px;
+    top: 40px;
+}
 
-.ball-1 {}
+.ball-1 {
+    left: 0px;
+    bottom: 120px;
+}
 
-.ball-2 {}
+.ball-2 {
+    right: 80px;
+    top: 0px;
+}
 
-.ball-3 {}
+.ball-3 {
+    right: 120px;
+    top: 120px;
+}
 
-.ball-4 {}
+.ball-4 {
+    right: 80px;
+    top: 120px;
+}
 
-.ball-5 {}
+.ball-5 {
+    right: 80px;
+    bottom: 0px;
+}
 
-.ball-6 {}
+.ball-6 {
+    right: 0px;
+    bottom: 120px;
+}
 
-.ball-7 {}
+.ball-7 {
+    left: 160px;
+    top: 0px;
+}
 
-.ball-8 {}
+.ball-8 {
+    right: 80px;
+    bottom: 160px;
+}
 
-.ball-9 {}
-
-.ball-10 {}
+.ball-9 {
+    right: 80px;
+    bottom: 160px;
+}
